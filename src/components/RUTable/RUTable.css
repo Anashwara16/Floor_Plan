@@ -1,0 +1,29 @@
+.ru-table {
+	table-layout: fixed;
+	width: 100%;
+	align-items: center;
+	border-collapse: collapse;
+	background-color: white;
+	border-spacing: 0;
+}
+
+.grid-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: auto;
+}
+
+.midhalf {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	width: 99.68%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}

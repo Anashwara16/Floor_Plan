@@ -1,0 +1,180 @@
+.active,
+.active-unmask,
+.inactive,
+.ru-num {
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 2px solid black;
+	width: 40px;
+	min-width: 40px;
+	white-space: nowrap;
+}
+
+.empty-class-left {
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 0.5vw;
+	min-width: 0.5vw;
+	white-space: nowrap;
+}
+
+.empty-class-right {
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	width: 0.5vw;
+	min-width: 0.5vw;
+	white-space: nowrap;
+}
+
+.active {
+	background-color: blue;
+}
+
+.inactive {
+	background-color: white;
+}
+
+.active-unmask {
+	background-color: yellow;
+}
+
+.ru-num {
+	background-color: white;
+}
+
+.product-corei1,
+.product-corei2,
+.product-corei3,
+.product-corei4,
+.product-corei5,
+.product-corei6,
+.product-corei7,
+.product-corei8,
+.product-corei9,
+.product-corei10,
+.product-corei11,
+.product-corei12,
+.product-corei13,
+.product-corei14,
+.product-corei15,
+.product-corei16,
+.product-corei17,
+.product-corei18,
+.product-corei19,
+.product-corei20,
+.product-corei21,
+.product-corei22,
+.product-corei23,
+.product-corei24,
+.product-corei25,
+.product-corei26 {
+	width: 100vw;
+	color: black;
+	flex-direction: column;
+	font-weight: bold;
+	border: 2px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.product-corei1 {
+	background-color: #252b38;
+	color: white;
+}
+.product-corei2 {
+	background-color: #539aff;
+}
+
+.product-corei3 {
+	background-color: #6ec7ca;
+}
+.product-corei4 {
+	background-color: #88c087;
+}
+
+.product-corei5 {
+	background-color: #006953;
+}
+.product-corei6 {
+	background-color: #00ef30;
+}
+
+.product-corei7 {
+	background-color: #008ad1;
+}
+.product-corei8 {
+	background-color: #eba0fb;
+}
+
+.product-corei9 {
+	background-color: #8cc800;
+}
+.product-corei10 {
+	background-color: #dbf400;
+}
+.product-corei11 {
+	background-color: #001b82;
+}
+.product-corei12 {
+	background-color: #ecac87;
+}
+
+.product-corei13 {
+	background-color: #3bd2fd;
+}
+.product-corei14 {
+	background-color: #00bf80;
+}
+
+.product-corei15 {
+	background-color: #c74f6a;
+}
+.product-corei16 {
+	background-color: #daf100;
+}
+
+.product-corei17 {
+	background-color: #00e979;
+}
+.product-corei18 {
+	background-color: #b200c2;
+}
+
+.product-corei19 {
+	background-color: #0079c6;
+}
+
+.product-corei20 {
+	background-color: #00d900;
+}
+
+.product-corei21 {
+	background-color: #f500c5;
+}
+
+.product-corei22 {
+	background-color: #708fc3;
+}
+
+.product-corei23 {
+	background-color: #fcba00;
+}
+.product-corei24 {
+	background-color: #cbe0e3;
+}
+
+.product-corei25 {
+	background-color: #dfeaff;
+}
+.product-corei26 {
+	background-color: #e83f9c;
+}

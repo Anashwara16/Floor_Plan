@@ -1,0 +1,87 @@
+.App {
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	justify-self: unset;
+	border: white;
+	margin: 100px;
+	border-collapse: collapse;
+}
+
+.table-container {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.ru-table {
+	table-layout: fixed;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-right: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	max-width: 100%;
+	margin-right: 1rem;
+	max-width: 95vw;
+	width: auto;
+}
+
+.misc-block-row {
+	display: flex;
+}
+
+.misc-block-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-sizing: border-box;
+	font-weight: bold;
+	flex-direction: column;
+	flex-grow: 1;
+	width: 80%;
+	max-width: 80%;
+	margin-top: 0;
+	margin-left: 167px;
+	margin-right: 167px;
+	height: auto;
+	border: 2px solid black;
+	border-top: 1px solid black;
+}
+
+.io-column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	margin-left: 30px;
+	margin-top: 168px;
+	margin-bottom: 40px;
+	height: 126vh;
+	width: 3vw;
+	padding: 0.5em;
+	font-weight: bold;
+}
+
+@media (max-width: 600px) {
+	.table-container {
+		flex-direction: column;
+	}
+
+	.ru-table,
+	.io-column {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 0rem;
+		height: 100%;
+	}
+}

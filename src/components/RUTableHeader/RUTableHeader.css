@@ -1,0 +1,63 @@
+.ru-header-container {
+	width: 100%;
+	text-align: center;
+	align-items: stretch;
+	background-color: #004f7c;
+	color: white;
+	justify-content: center;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-top: solid 2px black;
+}
+
+.ru-header-title {
+	display: flex;
+	box-sizing: border-box;
+	font-weight: bold;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-bottom: solid 2px black;
+	border-left: solid 2px black;
+	border-right: solid 2px black;
+}
+
+.ru-table-header {
+	display: flex;
+	justify-content: center;
+	width: 82vw;
+	text-align: center;
+	border-right: 2px solid black;
+}
+
+.ru-header-cell,
+.ru-seat-cell {
+	border-left: 2px solid black;
+}
+
+.ru-header-cell {
+	display: flex;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 40px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	writing-mode: vertical-rl;
+	vertical-align: middle;
+}
+
+.ru-seat-cell {
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	writing-mode: horizontal-tb;
+	transform: none;
+}
